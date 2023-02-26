@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS';
+}
+
+h1 {
+    color: white;
+    height: 50px;
+    margin: 0;
+    text-align: right;
+    padding: 30px 40px 30px 0;
+    background-color: #1F45FC;
+}
+
+
+h2 {
+    color: white;
+    height: 30px;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #306EFF;
+}
+
+.info {
+    margin: 30px 10% 40px 10%;
+    width: 80%;
+    overflow: auto;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+    font-size: 150%;
+}
+
+.voskl{
+    width: 10%;
+    margin: 10px 0 0 2%;
+    padding: 0;
+}
+
+.info li {
+    list-style-type: none;
+    margin: 2.5% 10%;
+    padding: 10px 5px;
+    text-align: center;
+    width: 50%;
+    border: 3px solid #306EFF;
+}
+
+.ava {
+    margin: 90px 20px 20px 10px;
+    border-radius: 30%;
+    float: right;
+    height: 300px;
+}
+
+.info h3 {
+    width: 72%;
+    text-align: center;
+    border-bottom: 2px solid #1F45FC;
+}
+
+.sections h3 {
+    width: 80%;
+    font-size: 170%;
+    text-align: center;
+    padding: 0 0 5px 0;
+    margin: 5px 0 10px 10%;
+    border-bottom: 2px solid #1F45FC;
+}
+
+
+.section-list{
+    margin-left: 22%;
+}
+
+
+
+.sections {
+    border-radius: 10px;
+    margin: 20px 0 20px 40px;
+    height: 400px;
+    overflow: auto;
+    width: 20%;
+    box-shadow: 0 0 20px black;
+    float: left;
+}
+
+.sections img{
+    width: 100%;
+}
+
+.sections p{
+    margin: 0 10px 15px 10px;
+}
+
+.icon{
+    float: left;
+    margin: 40px 2%;
+    width: 9%;
+}
+
+.trener1 {
+    margin: 20px 1% 20px 2.5%;
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    float: left;
+    overflow: auto;
+}
+
+.trener1 img{
+   float: left;
+   border-radius: 50%;
+   width: 30%;
+   margin: 10px 10px 5px 10px;
+}
+
+.trenerinfo {
+    margin-left: 35%;
+    width: 65%;
+    height: 100%;
+    
+}
+
+.trenerinfo h3{
+    border-top-right-radius: 10px;
+    background-color: #306EFF;
+    color: white;
+    height: 30px;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.trenerinfo p{
+    margin: 10px 0;
+    position: relative;
+}
+
+
+
+.dropdown {
+    display: none;
+    margin: 0;
+    padding: 5px 0;
+    border-top: 2px solid black;
+}
+
+.dropdown ul{
+    margin: 5px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.trener1:hover .dropdown {
+    display: block;
+}
+
+
+
+.trener2 {
+    margin: 20px 1%;
+    width: 40%;
+    display: block;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    float: left;
+}
+
+.trener2:hover .dropdown {
+    display: block;
+}
+
+.trener2 img{
+   float: left;
+   border-radius: 50%;
+   width: 30%;
+   margin: 10px 10px 5px 10px;
+}
+
+
+.kids {
+    margin: 20px 15% 20px 15%;
+    width: 20%;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    float: left;
+}
+
+.kids img {
+    
+    border-radius: 50%;
+    width: 90%;
+    margin: 10px 10px 5px 10px;
+}
+
+.kidinfo h3 {
+    width: 72%;
+    padding-bottom: 3px;
+    text-align: center;
+    border-bottom: 2px solid #1F45FC;
+    margin: 0 14%;
+}
+
+.kidinfo p{
+    padding: 0 10px;
+}
+
+.ticketlist {
+    width: 80%;
+    margin: 30px 10% 0 10%;
+    padding: 20px 0;
+    height: 450px;
+    overflow: auto;
+}
+
+.tickets {
+    margin: 0 2%;
+    width: 20%;
+    height: 99%;
+    border: 2px solid black;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    float: left;
+}
+
+.tickets li{
+    margin: 5px;
+}
+
+
+.tickets img{
+    border-radius: 50%;
+    width: 90%;
+    margin: 10px 10px 5px 10px;
+}
+
+.tickets h3{
+    width: 72%;
+    padding-bottom: 3px;
+    text-align: center;
+    border-bottom: 2px solid #1F45FC;
+    margin: 0 14%;
+}
+
+.tickets ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.price {
+    width: 80%;
+    margin: 0 10% 50px 10%;
+    padding: 0;
+}
+
+.price ul{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+.price li{
+    margin: 0 2.15%;
+    width: 20%;
+    font-size: 150%;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    padding: 20px 0;
+    background-color: #1F45FC; 
+    color: white;
+    border-radius: 15px;
+}
+
+
+
+
+.contacts {
+    width: 80%;
+    margin: 30px 10%;
+    background-color: #1F45FC;
+    color: white;    
+    overflow: auto;
+    border-radius: 15px;
+}
+
+.contacts img{
+    border-radius: 2px;
+    width: 45%;
+    margin: 2% 2% 2% 0;
+    float: right;
+}
+
+.contacts ul{
+    width: 40%;
+    margin: 2% 30px;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.contacts a{
+    color: white;
+    font-weight: 100;
+}
+
+.contacts a:hover{
+    color: #00BFFF;
+}
+
+.contacts li{
+    color: #00BFFF;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
